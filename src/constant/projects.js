@@ -2,6 +2,7 @@ import trainiq from "../assets/images/trainiq.png";
 import mntn from "../assets/images/mntn.webp";
 import flixx from "../assets/images/flixx.webp";
 import calc from "../assets/images/calc-app.webp";
+import caloryx from "../assets/images/caloryx.webp";
 
 export const PROJECTS = [
   {
@@ -27,5 +28,11 @@ export const PROJECTS = [
     description: "Basic calculator application",
     imgUrl: calc,
     liverUrl: "https://bzicalc.netlify.app/",
+  },
+  {
+    title: "Caloryx",
+    description: "Tracker for calory, meals, and workouts.",
+    imgUrl: caloryx,
+    liverUrl: "https://caloryx.netlify.app/",
   },
 ];

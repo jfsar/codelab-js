@@ -3,8 +3,15 @@ import mntn from "../assets/images/mntn.webp";
 import flixx from "../assets/images/flixx.webp";
 import calc from "../assets/images/calc-app.webp";
 import caloryx from "../assets/images/caloryx.webp";
+import easycrypt from "../assets/images/easy-crypt.webp";
 
 export const PROJECTS = [
+  {
+    title: "EasyCrypt",
+    description: "A random password generator app.",
+    imgUrl: easycrypt,
+    liverUrl: "https://easy-crypt.netlify.app/",
+  },
   {
     title: "TrainIQ",
     description: "A static website for online course platform",
